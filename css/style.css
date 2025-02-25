@@ -12,9 +12,12 @@ header {
 }
 .left-nav {
     padding: 15px;
-
     display: flex;
     flex-direction: column;
+}
+
+.left-nav a {
+    text-decoration: none;
 }
 
 .aesthetic {
@@ -104,4 +107,13 @@ ul .dropdown-shop li a:hover {
 .right-nav button {
     padding: 15px;
     font-size: 20px;
+    background-color: #73a7a2;
+    color: white;
+    border: none;
+}
+
+.right-nav button:hover {
+    background-color: white;
+    color: #73a7a2;
+    border: black solid 1px;
 }
