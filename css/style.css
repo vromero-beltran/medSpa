@@ -35,21 +35,37 @@ header {
 .middle-nav ul{
     display: flex;
     flex-direction: row;
-    list-style: none;
     padding: 25px;
 }
 
 .middle-nav ul li {
-    font-size: 20px;
+    font-size: 19px;
     margin: 1rem;
     text-transform: uppercase;
     list-style: none;
+}
+
+.middle-nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.middle-nav ul li a:hover {
+    color: #73a7a2;
 }
 
 .dropdown-treatments {
     position: absolute;
     visibility: hidden;
 }
+
+ul .dropdown-treatments li a {
+    color: white;
+}
+ul .dropdown-treatments li a:hover {
+    color: #8bf3e3;
+}   
 
 .menu-treatments:hover .dropdown-treatments {
     visibility: visible;
@@ -58,14 +74,34 @@ header {
     padding: 2px;
     display: flex;
     flex-direction: column;
-    list-style: none;
+}
+
+.dropdown-shop {
+    position: absolute;
+    visibility: hidden;
+}
+ul .dropdown-shop li a {
+    color: white;
+}
+
+ul .dropdown-shop li a:hover {
+    color: #8bf3e3;
+} 
+
+.menu-shop:hover .dropdown-shop {
+    visibility: visible;
+    background-color: #73a7a2;
+    color: white;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
 }
 
 .right-nav {
-    padding: 30px;
+    padding: 25px;
 }
 
 .right-nav button {
     padding: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
