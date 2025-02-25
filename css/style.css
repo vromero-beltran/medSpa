@@ -110,6 +110,7 @@ ul .dropdown-shop li a:hover {
     background-color: #73a7a2;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .right-nav button:hover {
