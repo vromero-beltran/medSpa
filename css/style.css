@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Script, Calligraphy, Handwritten Typefaces;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-nav {
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.aesthetic {
+    font-size: 70px;
+    color: #73a7a2;
+}
+
+.medspa {
+    font-size: 40px;
+    color: #505356
+}
+
+.middle-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px;
+}
+
+.middle-nav ul li {
+    font-size: 20px;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+.right-nav {
+    padding: 30px;
+}
+
+.right-nav button {
+    padding: 15px;
+    font-size: 25px;
+}
