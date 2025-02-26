@@ -197,18 +197,26 @@ ul .dropdown-shop li a:hover {
 }
 
 .treatments-a {
-    color: white;
-    text-transform: capitalize;
-    position: relative;
-    top: 380px;
     display: flex;
     justify-content: end;
+    align-content: end;
+    color: white;
+    background-color: #73a7a2;
+    border-radius: 25px;
+    padding: 5px;
+    width: 200px;
     font-size: 20px;
+    text-transform: capitalize;
     padding-right: 20px;
+    position: relative;
+    top: 380px;
+    left: 900px;
 }
 
 .treatments-a:hover {
     color: #73a7a2;
+    background-color: white;
+    border: 1px solid #73a7a2;
 }
 
 .second-section {
