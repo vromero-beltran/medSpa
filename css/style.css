@@ -118,3 +118,111 @@ ul .dropdown-shop li a:hover {
     color: #73a7a2;
     border: black solid 1px;
 }
+
+.first-section {
+    background-image: url(/images/woman.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1500px;
+}
+
+.first-section-content {
+    padding: 100px;
+    color: white;
+    font-size:35px;
+    text-align: end;
+}
+
+.top {
+    font-size: 80px;
+    font-weight: 200;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 40px;
+}
+
+.middle {
+    margin-bottom: 40px;
+}
+
+.bottom button {
+    font-size: 35px;
+    padding: 20px;
+    color: #73a7a2;
+    border-radius: 25px;
+}
+
+.bottom button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 35px;
+    position: relative;
+    top: 400px;
+    padding-right: 20px;
+}
+
+.options a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.options a img {
+    width: 300px;
+    height: 265px;
+    border-radius: 25px;    
+}
+
+.options a h2 {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    align-content: center;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    top: -55px;
+}
+
+.options a h2:hover {
+    color: #73a7a2;
+}
+
+.treatments-a {
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    top: 380px;
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.treatments-a:hover {
+    color: #73a7a2;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    background-color: #73a7a2;
+    color: white;
+    font-size: 30px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
