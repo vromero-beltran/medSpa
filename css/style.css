@@ -377,6 +377,58 @@ ul .dropdown-shop li a:hover {
 
 .fourth-section button:hover {
     background-color: white;
-  color: #73a7a2;
-  border: 1px solid #73a7a2;
+    color: #73a7a2;
+    border: 1px solid #73a7a2;
+}
+
+.fifth-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.fifth-section img {
+    width: 600px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 80px;
+}
+
+.fifth-section .fifth-h2 {
+    font-size: 35px;
+    color: #73a7a2;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fifth-section .fifth-p {
+    font-size: 25px;
+    padding: 50px;
+}
+.fifth-section .fifth-p-2 {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.fifth-section .fifth-section-button {
+    padding-left: 50px;
+}
+
+.fifth-section button {
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #73a7a2;
+    color: white;
+    border: 1px solid white;
+}
+
+.fifth-section button:hover {
+    background-color: white;
+    color: #73a7a2;
+    border: 1px solid #73a7a2;
+    cursor: pointer;
 }
