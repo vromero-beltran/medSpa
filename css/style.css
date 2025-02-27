@@ -387,6 +387,7 @@ ul .dropdown-shop li a:hover {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding-bottom: 30px;
 }
 
 .fifth-section img {
@@ -431,4 +432,34 @@ ul .dropdown-shop li a:hover {
     color: #73a7a2;
     border: 1px solid #73a7a2;
     cursor: pointer;
+}
+
+.sixth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #73a7a2;
+    padding-top: 30px;
+}
+
+.sixth-section img {
+    width: 55px;
+    color: #d6fcee;
+}
+
+.sixth-section .slider .image-container .overlay-text .h2 {
+    font-size: 25px;
+    padding: 20px;
+    color: #8bf3e3;
+}
+
+.sixth-section .slider .image-container .overlay-text .p {
+    color: black;
+}
+
+.sixth-section .slider-wrapper {
+    max-width: 880px;
+    margin: 0 auto;
+    position: relative;
 }
