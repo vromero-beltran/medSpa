@@ -304,6 +304,7 @@ ul .dropdown-shop li a:hover {
     border-radius: 25px;
     background-color: white;
     color: #73a7a2;
+    cursor: pointer;
 }
 
 .slider .image-container .overlay-text button:hover {
@@ -334,4 +335,46 @@ ul .dropdown-shop li a:hover {
 
 .slider-nav a:hover {
     opacity: 1;
+}
+
+/* ---------------THIRD  SECTION-------------------------- */
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #73a7a2;
+}
+
+.fourth-section svg {
+    width: 100px;
+    color: white;
+}
+
+.fourth-section h2 {
+    font-size: 55px;
+    color: white;
+}
+
+.fourth-section .p {
+    font-size: 25px;
+    color: white;
+    padding: 25px;
+}
+
+.fourth-section button {
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #73a7a2;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.fourth-section button:hover {
+    background-color: white;
+  color: #73a7a2;
+  border: 1px solid #73a7a2;
 }
