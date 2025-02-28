@@ -463,3 +463,57 @@ ul .dropdown-shop li a:hover {
     margin: 0 auto;
     position: relative;
 }
+
+.seventh-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+
+.seventh-section-container img {
+    width: 700px;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.seventh-section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.seventh-h2 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.seventh-h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seventh-p {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seventh-button button {
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #73a7a2;
+    color: white;
+    border: 1px solid white;
+}
+
+.seventh-button button:hover {
+    background-color: white;
+    color: #73a7a2;
+    border: 1px solid #73a7a2;
+    cursor: pointer;
+}
