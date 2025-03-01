@@ -517,3 +517,51 @@ ul .dropdown-shop li a:hover {
     border: 1px solid #73a7a2;
     cursor: pointer;
 }
+
+.seventh-section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.sev-sec-wra {
+    border-radius: 25px;
+    padding: 35px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sev-sec-wra-h2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sev-sec-wra-p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sev-sec-wra:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 285px;
+    height: 120px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    content: "";
+    z-index: 2;
+}
+
+.sev-sec-wra-img svg {
+    height: 100px;
+}
