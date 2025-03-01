@@ -565,3 +565,56 @@ ul .dropdown-shop li a:hover {
 .sev-sec-wra-img svg {
     height: 100px;
 }
+
+.footer-container {
+    background-color: #434343;
+    color: white;
+    height: 22rem;
+}
+
+.foot-wrapper {
+    display: flex;
+    justify-content: start;
+    gap: 10rem;
+    padding: 3rem 10rem;
+}
+
+.line {
+    border-bottom: 2px solid #ffffff; 
+    width: 250%;
+    margin-bottom: 25px;
+}
+
+.foot-info {
+    padding-right: 8rem;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info ul a {
+    color: white;
+}
+
+.info ul li {
+    text-transform: uppercase;
+}
+
+.socials ul a {
+    padding: 5px;
+}
+
+.socials ul a svg {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    background-color: white;
+}
+
+.reserved {
+    padding: 1rem 10rem;
+}
