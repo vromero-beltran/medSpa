@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Script, Calligraphy, Handwritten Typefaces;
+}
+/* ---------------HEADER-------------------------- */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-nav {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-nav a {
+    text-decoration: none;
+}
+
+.aesthetic {
+    font-size: 70px;
+    color: #73a7a2;
+}
+
+.medspa {
+    font-size: 40px;
+    color: #505356
+}
+
+.middle-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.middle-nav ul li {
+    font-size: 19px;
+    margin: 1rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.middle-nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.middle-nav ul li a:hover {
+    color: #73a7a2;
+}
+
+.dropdown-treatments {
+    position: absolute;
+    visibility: hidden;
+}
+
+ul .dropdown-treatments li a {
+    color: white;
+}
+
+ul .dropdown-treatments li a:hover {
+    color: #8bf3e3;
+}   
+
+.menu-treatments:hover .dropdown-treatments {
+    visibility: visible;
+    background-color: #73a7a2;
+    color: white;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-shop {
+    position: absolute;
+    visibility: hidden;
+}
+ul .dropdown-shop li a {
+    color: white;
+}
+
+ul .dropdown-shop li a:hover {
+    color: #8bf3e3;
+} 
+
+.menu-shop:hover .dropdown-shop {
+    visibility: visible;
+    background-color: #73a7a2;
+    color: white;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-nav {
+    padding: 25px;
+}
+
+.right-nav button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #73a7a2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.right-nav button:hover {
+    background-color: white;
+    color: #73a7a2;
+    border: black solid 1px;
+}
+
+ul .dropdown-treatments li .active {
+    color: #434343;
+}
+
+ul .dropdown-treatments li .active:hover {
+    color: #434343;
+}
+
+/* ---------------FIRST  SECTION-------------------------- */
+
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section-botox{
+    background: linear-gradient(90deg, rgba(66,107,103,1) 0%, rgba(246,246,246,1) 100%);
+    padding-left: 30px;
+    color: white;
+    width: 100%;
+}
+
+.f-s-h1 {
+    padding: 40px;
+}
+
+.f-s-h1 h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+.f-s-p{
+    font-size: 20px;
+    padding: 40px;
+}
+
+.f-s-booknow {
+    padding: 0 6rem;
+}
+
+.f-s-booknow button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #73a7a2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.f-s-booknow button:hover {
+    background-color: transparent;
+    border: 1px solid #73a7a2;
+}
+
+.first-section-img {
+    background-image: url("../images/botox/woman-getting-botox-2.png");
+    background-size: contain; /* Or 'contain', depending on desired effect */
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 700px; /* Or any desired height */
+    width: 100%;
+}
+
+/* ---------------FOOTER  SECTION-------------------------- */
+
+
+.footer-container {
+    background-color: #434343;
+    color: white;
+    height: 22rem;
+}
+
+.foot-wrapper {
+    display: flex;
+    justify-content: start;
+    gap: 10rem;
+    padding: 3rem 10rem;
+}
+
+.line {
+    border-bottom: 2px solid #ffffff; 
+    width: 250%;
+    margin-bottom: 25px;
+}
+
+.foot-info {
+    padding-right: 8rem;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info ul a {
+    color: white;
+}
+
+.info ul li {
+    text-transform: uppercase;
+}
+
+.socials ul a {
+    padding: 5px;
+}
+
+.socials ul a svg {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    background-color: white;
+}
+
+.reserved {
+    padding: 1rem 10rem;
+}

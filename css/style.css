@@ -339,7 +339,7 @@ ul .dropdown-shop li a:hover {
     opacity: 1;
 }
 
-/* ---------------THIRD  SECTION-------------------------- */
+/* ---------------FOURTH  SECTION-------------------------- */
 .fourth-section {
     display: flex;
     flex-direction: column;
@@ -380,6 +380,9 @@ ul .dropdown-shop li a:hover {
     color: #73a7a2;
     border: 1px solid #73a7a2;
 }
+
+/* ---------------FIFTH  SECTION-------------------------- */
+
 
 .fifth-section {
     display: flex;
@@ -434,6 +437,9 @@ ul .dropdown-shop li a:hover {
     cursor: pointer;
 }
 
+/* ---------------SIXTH  SECTION-------------------------- */
+
+
 .sixth-section {
     display: flex;
     flex-direction: column;
@@ -463,6 +469,9 @@ ul .dropdown-shop li a:hover {
     margin: 0 auto;
     position: relative;
 }
+
+/* ---------------SEVENTH  SECTION-------------------------- */
+
 
 .seventh-section-container {
     display: flex;
@@ -565,6 +574,9 @@ ul .dropdown-shop li a:hover {
 .sev-sec-wra-img svg {
     height: 100px;
 }
+
+/* ---------------FOOTER  SECTION-------------------------- */
+
 
 .footer-container {
     background-color: #434343;
