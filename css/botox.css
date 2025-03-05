@@ -185,6 +185,94 @@ ul .dropdown-treatments li .active:hover {
     width: 100%;
 }
 
+/* ---------------SECOND  SECTION-------------------------- */
+
+.second-section {
+    padding: 4rem 25rem;
+    background-color: rgb(227, 227, 227);
+
+}
+
+.second-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    width: 50rem;
+}
+
+.second-section-img {
+    background-image: url("../images/botox/woman getting botox 3.png");
+    background-size: contain; /* Or 'contain', depending on desired effect */
+    background-position: left; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 700px; /* Or any desired height */
+    width: 100%;
+}
+
+.second-section-img .s-s-h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: end;
+    padding: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.second-section-container .s-s-h2 {
+    padding: 2rem;
+    color: #555555;
+}
+
+.s-s-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.s-s-wrapper .s-s-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    padding: 15px;
+}
+
+.s-s-wrapper .s-s-item svg {
+    height: 6rem;
+    width: 6rem;
+}
+
+.s-s-wrapper .s-s-item .s-s-i {
+    font-size: 20px;
+}
+
+.s-s-end {
+    padding-top: 20px;
+}
+
+.s-s-end a button {
+    font-size: 20px;
+    color:white;
+    background-color: #73a7a2;
+    border: 1px solid #73a7a2;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.s-s-end a button:hover {
+    color: #73a7a2;
+    background-color: white;
+    border: 1px solid #73a7a2;
+}
+
 /* ---------------FOOTER  SECTION-------------------------- */
 
 
